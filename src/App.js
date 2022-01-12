@@ -3,7 +3,7 @@ import Landing from "./Pages/Landing";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div style={{ backgroundColor: "lightGrey" }}>
       <Landing />
     </div>
   );

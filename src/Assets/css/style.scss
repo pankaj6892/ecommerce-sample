@@ -57,7 +57,7 @@
 
 .carousel {
   width: 95%;
-  padding: 2px 0px 10px 0px;
+  border-radius: 15px;
   animation-name: moveInRight;
   animation-duration: 3s;
   animation-timing-function: ease-out;
@@ -65,7 +65,7 @@
 
 .carousel__reverse {
   width: 95%;
-  padding: 2px 0px 10px 0px;
+  border-radius: 15px;
   animation-name: moveInLeft;
   animation-duration: 3s;
   animation-timing-function: ease-out;
@@ -176,4 +176,27 @@
     opacity: 1;
     transform: translate(0);
   }
+}
+
+.common__card{
+  background-color: #fff;
+  margin: 24px;
+  border-radius: 15px;
+  padding: 5px;
+  width: 190px;
+}
+
+.common__card__image {
+  width: 180px;
+  border-radius: 15px;
+}
+
+.deals{
+  padding: 2.5%;
+}
+
+.deals__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
